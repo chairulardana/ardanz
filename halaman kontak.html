@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chairul Ardana Profile</title>
+</head>
+<body>
+<style>
+    h1,h2 {
+        color: white;
+    }
+    
+    header {
+        background-color: #193f74;
+        color: white;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    header nav button {
+        background-color: #0c1e31;
+        border: none;
+        margin: 5px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    header nav button a {
+        text-decoration: none;
+        color: rgb(247, 246, 246);
+        font-weight: bold;
+    }
+    
+    header nav button:hover {
+        background-color: #205b9a;
+    }
+    body {
+        background:linear-gradient(#205b9a,rgb(115, 94, 94),rgb(6, 11, 112))
+    }
+    form {
+        text-align: center;
+    }
+    h1,h2 {
+        text-align: center;
+    }
+    p {
+       text-align: center;
+        font-weight: bold;
+    }  
+
+    p button {
+        background-color: hsl(0, 37%, 7%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    }
+    footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #17263a;
+            color: white;
+            font-size: 0.9em;
+        }
+        .footer1 {
+            text-align: center;
+        }
+        footer .scroll-btn {
+    background-color: hsl(0, 37%, 7%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+    </style>
+    
+    <header>
+        <nav>
+            <button><a href="beranda.html">Halaman Utama (Home)</a></button>
+            <button><a href="tentang saya.html">Tentang Saya (About Me)</a></button>
+            <button><a href="halaman kontak.html">Halaman Kontak (Contact)</a></button>
+        </nav>
+    </header>
+        <h1>Formulir Kontak</h1>
+        <form action="submit" method="post">
+            <div>
+                <label for="name">Nama</label><br>
+                <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+            </div>
+            <div>
+                <label for="message">Pesan</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Kirim</button>
+            </div>
+        </form>
+        <h2>Link Media Sosial</h2>
+        <p>Instagram: <a href="https://www.instagram.com/chairlardnaa/"><button>Klik Ajaa!</button></a></p></body>
+        <p>WhatsApp: <a href="https://wa.me/6285360110521" target="085360110521"><button>Klik di sini untuk menghubungi</button></a></p>
+        <p>Github   : <a href="https://github.com/chairulardanaa"><button>chairulardanaa</button></a></p>
+        <footer>
+            <p class="footer1"> Hak Cipta &copy; 2024 Chairul Ardana Profile </p>  
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" class="scroll-btn">Kembali ke Atas</button>
+         </footer>
+    </body>    
+</html>
